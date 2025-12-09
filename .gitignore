@@ -122,3 +122,7 @@ venv/*
 !.vscode/extensions.json
 !.vscode/launch.json
 !.vscode/tasks.json
+.direnv
+result/
+result
+.claude/
