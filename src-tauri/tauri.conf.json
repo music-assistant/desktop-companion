@@ -5,10 +5,7 @@
   "identifier": "io.music-assistant.companion",
   "mainBinaryName": "music-assistant-companion",
   "build": {
-    "frontendDist": "../music_assistant_frontend",
-    "devUrl": "http://localhost:3000",
-    "beforeDevCommand": "yarn dev:frontend",
-    "beforeBuildCommand": "yarn build:frontend"
+    "frontendDist": "resources"
   },
   "app": {
     "withGlobalTauri": true,
